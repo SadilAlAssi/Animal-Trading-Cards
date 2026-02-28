@@ -1,0 +1,60 @@
+/* add your CSS here */
+.card{
+    width:320px;
+    border: 2px solid lightgray;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 10px 5px 5px lightgray;
+    box-sizing: border-box;
+    background-color: rgb(238, 255, 254);
+}
+
+.interesting-informaton{
+    font-style: italic;
+}
+
+.labels{
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+     text-align: left;       
+    margin-bottom: 5px;
+    padding:10px ;
+}
+
+.info{
+    border: 2px solid lightgray ;
+    padding: 10px; 
+    margin:  10px auto ;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 0 0 10px 0;
+    object-fit: cover;
+}
+
+body{
+    display: flex;
+    justify-content: center;    
+    align-items: center;    
+}
+
+.to-small{
+    font-size: small;
+}
+
+a{
+    display: inline-block;
+    text-decoration:underline ;
+    font-style: italic;
+}
+
+
+
